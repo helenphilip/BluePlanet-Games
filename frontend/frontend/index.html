@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson to Game Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lesson to Game Converter</h1>
+        <form id="lessonForm">
+            <label for="lessonInput">Paste your lesson text:</label>
+            <textarea id="lessonInput" rows="8" placeholder="Enter lesson content..."></textarea>
+            <label>Select game type:</label>
+            <div id="gameTypeButtons" style="margin-bottom:16px;">
+                
+                <button type="button" class="game-type-btn" data-type="quiz">Quiz Game</button>
+                <button type="button" class="game-type-btn" data-type="flashcards">Flashcards</button>
+                <button type="button" class="game-type-btn" data-type="matching">Matching Game</button>
+           
+            </div>
+            <input type="hidden" id="gameType" name="gameType" value="quiz">
+            <button type="submit">Convert to Game</button>
+        </form>
+        <div id="gameOutput"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

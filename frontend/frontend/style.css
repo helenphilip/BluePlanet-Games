@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+        background: url('./Cartoon_BackgroundImage.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: rgba(70, 130, 255, 0.25); /* transparent blue */
+    padding: 32px;
+    border-radius: 12px;
+    border: 2px solid rgba(70, 130, 255, 0.4); /* transparent blue border */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+h1 {
+    text-align: center;
+    color: #2d3a4b;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+button {
+    background: #3066c4;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #3466c2;
+}
+#gameOutput {
+    margin-top: 32px;
+}
